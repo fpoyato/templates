@@ -1,0 +1,25 @@
+{
+    "name": "fpoyato/templates",
+    "description": "Templates",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":     "Fernando Poyato",
+            "email":    "ferpoyato@gmail.com",
+            "homepage": "http://www.caecom.es"
+        }
+    ],
+    "require": {
+        "php":          ">=5.4.0",
+        "symfony/yaml": "2.3.*"
+    },
+    "support": {
+        "source": "https://github.com/fpoyato/templates/"
+    },
+    "autoload": {
+        "psr-0": {
+            "Templates": "src/"
+        }
+    }
+	"app/Resources/views/Form": [ "src/Symfony2/Form/form_div_layout.html.twig" ]
+}

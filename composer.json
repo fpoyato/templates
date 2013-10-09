@@ -18,5 +18,4 @@
             "Templates": "src/"
         }
     }
-	"form-template-dir": [ "src/Symfony2/Form/form_div_layout.html.twig" ]
 }

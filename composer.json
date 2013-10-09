@@ -17,5 +17,9 @@
         "psr-0": {
             "Templates": "src/"
         }
-    }
+    },
+	"config": {
+        "form-template-dir": "app/Resources/views/Form"
+    },
+	"form-template-dir": [ "src/Symfony2/Form/form_div_layout.html.twig" ]
 }
